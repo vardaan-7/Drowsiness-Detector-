@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# dlib model (too large for git — download separately)
+*.dat
+*.dat.bz2
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs (keep directory, ignore log content)
+logs/*.csv
+!logs/.gitkeep
+
+# Alarm WAV (auto-generated, keep assets dir)
+assets/alarm.wav
+!assets/.gitkeep

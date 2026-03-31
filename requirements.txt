@@ -1,0 +1,24 @@
+# ─────────────────────────────────────────────────────────────────
+# requirements.txt
+# AI-Based Driver Drowsiness Detection System
+# Updated: MediaPipe replaces dlib (no build tools needed)
+# ─────────────────────────────────────────────────────────────────
+
+# Core computer vision
+opencv-python>=4.8.0
+
+# Facial landmark detection — REPLACES dlib
+# Single pip install, no CMake, no compiler, no .dat download
+mediapipe>=0.10.0
+
+# Image processing utilities
+imutils>=0.5.4
+
+# Euclidean distance for EAR / MAR
+scipy>=1.11.0
+
+# Numerical arrays
+numpy>=1.24.0
+
+# Cross-platform audio alarm playback
+pygame>=2.5.0
